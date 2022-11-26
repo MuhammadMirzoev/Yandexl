@@ -1,6 +1,5 @@
 from PyQt5 import QtCore, QtWidgets
 
-
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")

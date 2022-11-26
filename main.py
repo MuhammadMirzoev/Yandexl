@@ -4,8 +4,6 @@ import sys
 import random
 from UI import Ui_MainWindow
 
-SCREEN_SIZE = [680, 480]
-
 
 class Example(QMainWindow, Ui_MainWindow):
     def __init__(self):
