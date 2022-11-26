@@ -27,7 +27,7 @@ class Example(QMainWindow, Ui_MainWindow):
             qp.begin(self)
             qp.setPen(QColor(*self.color))
             qp.setBrush(QColor(*self.color))
-            self.x, self.y = (300, 300), (200, 200)
+            self.x, self.y = 300, 200
             if self.figure == 'circle':
                 qp.drawEllipse(self.x, self.y, self.size, self.size)
             qp.end()
