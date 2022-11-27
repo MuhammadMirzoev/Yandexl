@@ -6,83 +6,131 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>399</width>
+    <height>266</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QRadioButton" name="radioButton_2">
+  <widget class="QPushButton" name="Do">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>260</y>
-     <width>97</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>x^2</string>
-   </property>
-  </widget>
-  <widget class="QRadioButton" name="radioButton_3">
-   <property name="geometry">
-    <rect>
-     <x>180</x>
-     <y>260</y>
-     <width>97</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>x^3</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>300</x>
-     <y>260</y>
+     <x>40</x>
+     <y>50</y>
      <width>81</width>
      <height>26</height>
     </rect>
    </property>
    <property name="text">
-    <string>Построить</string>
+    <string>До</string>
    </property>
   </widget>
-  <widget class="PlotWidget" name="graphicsView">
+  <widget class="QPushButton" name="Re">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>160</x>
      <y>20</y>
-     <width>361</width>
-     <height>221</height>
+     <width>81</width>
+     <height>26</height>
     </rect>
    </property>
+   <property name="text">
+    <string>Ре</string>
+   </property>
   </widget>
-  <widget class="QRadioButton" name="radioButton_4">
+  <widget class="QPushButton" name="Mi">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>260</y>
-     <width>97</width>
+     <x>260</x>
+     <y>50</y>
+     <width>81</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ми</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Fa">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>100</y>
+     <width>81</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>x</string>
+    <string>Фа</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Sol">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>81</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Соль</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="La">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>150</y>
+     <width>81</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ля</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Ci">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>140</y>
+     <width>81</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Си</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="All">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>100</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Все разом</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Do_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>170</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>До во второй октаве</string>
    </property>
   </widget>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>PlotWidget</class>
-   <extends>QGraphicsView</extends>
-   <header location="global">pyqtgraph</header>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections/>
 </ui>
