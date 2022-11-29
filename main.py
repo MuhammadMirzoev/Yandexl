@@ -11,15 +11,15 @@ class MyWidget(QMainWindow, Ui_Form):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
-        self.load_mp3('/Users/sidratmirzoev/PycharmProjects/PyGraph/do.mp3')
-        self.load_mp4('/Users/sidratmirzoev/PycharmProjects/PyGraph/Do-2.mp3')
-        self.load_mp5('/Users/sidratmirzoev/PycharmProjects/PyGraph/si.mp3')
-        self.load_mp6('/Users/sidratmirzoev/PycharmProjects/PyGraph/re.mp3')
-        self.load_mp7('/Users/sidratmirzoev/PycharmProjects/PyGraph/mi.mp3')
-        self.load_mp8('/Users/sidratmirzoev/PycharmProjects/PyGraph/sol.mp3')
-        self.load_mp9('/Users/sidratmirzoev/PycharmProjects/PyGraph/fa.mp3')
-        self.load_mp10('/Users/sidratmirzoev/PycharmProjects/PyGraph/lja.mp3')
-        self.load_mp11('/Users/sidratmirzoev/PycharmProjects/PyGraph/All.mp3')
+        self.load_mp3('do.mp3')
+        self.load_mp4('Do-2.mp3')
+        self.load_mp5('si.mp3')
+        self.load_mp6('re.mp3')
+        self.load_mp7('mi.mp3')
+        self.load_mp8('sol.mp3')
+        self.load_mp9('fa.mp3')
+        self.load_mp10('lja.mp3')
+        self.load_mp11('All.mp3')
         self.Do.clicked.connect(self.player.play)
         self.Do_2.clicked.connect(self.player1.play)
         self.Ci.clicked.connect(self.player2.play)
@@ -32,23 +32,23 @@ class MyWidget(QMainWindow, Ui_Form):
 
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_D:
-            playsound('/Users/sidratmirzoev/PycharmProjects/PyGraph/do.mp3')
+            playsound('do.mp3')
         if event.key() == Qt.Key_R:
-            playsound('/Users/sidratmirzoev/PycharmProjects/PyGraph/re.mp3')
+            playsound('re.mp3')
         if event.key() == Qt.Key_M:
-            playsound('/Users/sidratmirzoev/PycharmProjects/PyGraph/mi.mp3')
+            playsound('mi.mp3')
         if event.key() == Qt.Key_F:
-            playsound('/Users/sidratmirzoev/PycharmProjects/PyGraph/fa.mp3')
+            playsound('fa.mp3')
         if event.key() == Qt.Key_S:
-            playsound('/Users/sidratmirzoev/PycharmProjects/PyGraph/sol.mp3')
+            playsound('sol.mp3')
         if event.key() == Qt.Key_L:
-            playsound('/Users/sidratmirzoev/PycharmProjects/PyGraph/lja.mp3')
+            playsound('lja.mp3')
         if event.key() == Qt.Key_C:
-            playsound('/Users/sidratmirzoev/PycharmProjects/PyGraph/si.mp3')
+            playsound('si.mp3')
         if event.key() == Qt.Key_2:
-            playsound('/Users/sidratmirzoev/PycharmProjects/PyGraph/Do-2.mp3')
+            playsound('Do-2.mp3')
         if event.key() == Qt.Key_Space:
-            playsound('/Users/sidratmirzoev/PycharmProjects/PyGraph/All.mp3')
+            playsound('All.mp3')
 
 
 
